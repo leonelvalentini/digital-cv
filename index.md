@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Leonel Valentini  - Curriculum Vitae
 
-You can use the [editor on GitHub](https://github.com/leonelvalentini/digital-cv/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Este proyecto ademas de mantener mi CV actualizado, lo comparto a la comunidad ya que es una forma facil de tenerlo online y ademas actualizarlo.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Mi CV: [http://leonelvalentini.github.io/cv](http://leonelvalentini.github.io/cv).
 
-### Markdown
+## ¿Qué puede hacer el proyecto?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Ayuda a manejar tu CV como una WebAPP (HTML + CSS + JS).
+* Se genera automaticamente y publica como HTML y PDF, haciendo un push al `master`.
 
-```markdown
-Syntax highlighted code block
+## Instalación
 
-# Header 1
-## Header 2
-### Header 3
+1. Clonar el repositorio
+1. Instalar dependencias `npm install`.
+1. Ejecutar `npm run deploy` para inicializar `gh-pages`. Solo la primera vez, luego hacer push al `master`.
 
-- Bulleted
-- List
+## Uso
 
-1. Numbered
-2. List
+1. Localmente `npm start`.
+1. Actualizar el contenido en `src`.
 
-**Bold** and _Italic_ and `Code` text
+### Update contents
 
-[Link](url) and ![Image](src)
-```
+El proyecto usa [HandlebarsJS](https://github.com/wycats/handlebars.js/) como template.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/leonelvalentini/digital-cv/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+El HTML principal se encuentra en [src/templates/index.html](src/templates/index.html). 
+La información a editar se encuentra en [src/metadata/metadata.js](src/metadata/metadata.js).
