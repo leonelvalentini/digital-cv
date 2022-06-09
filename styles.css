@@ -29,6 +29,7 @@
     body {
         font-family: 'Helvetica';
         font-size: 0.9rem;
+        color: white;
     }
     .print {
         display: none;
@@ -41,11 +42,25 @@
             box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
             position: relative;
             padding: 32px;
+            background-color: #0375B4;
         }
     }
 
     h1, h2, h3, h4 {
         font-weight: 500;
+    }
+
+    .title-bg-color {
+        padding: 5px;
+        background-color: #262228;
+    }
+
+    .text-desc-color {
+        color: black;
+    }
+
+    a:link, a:visited, a:hover, a:active {
+        color: white;
     }
 
     h2 {
