@@ -35,18 +35,12 @@
         display: none;
     }
 
-    @media (min-width: 576px) {
-        .page {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
-            position: relative;
-            padding: 32px;
-            background-color: #0375B4;
-        }
-    }
-
     .page {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
+        position: relative;
+        padding: 32px;
         background-color: #0375B4;
     }
 
