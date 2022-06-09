@@ -27,7 +27,7 @@
 
 @media not print {
     body {
-        font-family: 'Helvetica';
+        font-family: 'Roboto';
         font-size: 0.9rem;
         color: white;
     }
@@ -44,8 +44,21 @@
         background-color: #426594;
     }
 
-    h1, h2, h3, h4 {
-        font-weight: 500;
+    .skills {
+        font-size: 0.8rem;
+    }
+
+    .circular--square {
+        max-width: 150px;
+        max-height: 150px;
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 50%;
+    }
+
+    .photo {
+        text-align: center;
     }
 
     .title-bg-color {
@@ -64,14 +77,6 @@
     h2 {
         margin-top: 2rem;
         margin-bottom: 1rem;
-    }
-
-    dt {
-        font-weight: normal;
-    }
-
-    strong {
-        font-weight: 500;
     }
 }
 
