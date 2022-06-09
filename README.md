@@ -2,7 +2,7 @@
 
 Este proyecto ademas de mantener mi CV actualizado, lo comparto a la comunidad ya que es una forma facil de tenerlo online y ademas actualizarlo.
 
-Mi CV: [http://leonelvalentini.github.io/cv](http://leonelvalentini.github.io/cv).
+Mi CV: [https://leonelvalentini.github.io/digital-cv/](https://leonelvalentini.github.io/digital-cv/).
 
 ## ¿Qué puede hacer el proyecto?
 
