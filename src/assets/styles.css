@@ -27,38 +27,56 @@
 
 @media not print {
     body {
-        font-family: 'Helvetica';
+        font-family: 'Roboto';
         font-size: 0.9rem;
+        color: white;
     }
     .print {
         display: none;
     }
 
-    @media (min-width: 576px) {
-        .page {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
-            position: relative;
-            padding: 32px;
-        }
+    .page {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.75);
+        position: relative;
+        padding: 32px;
+        background-color: #426594;
     }
 
-    h1, h2, h3, h4 {
-        font-weight: 500;
+    .skills {
+        font-size: 0.8rem;
+    }
+
+    .circular--square {
+        max-width: 150px;
+        max-height: 150px;
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 50%;
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+    .title-bg-color {
+        padding: 10px;
+        background-color: #262228;
+    }
+
+    .text-desc-color {
+        color: black;
+    }
+
+    a:link, a:visited, a:hover, a:active {
+        color: white;
     }
 
     h2 {
         margin-top: 2rem;
         margin-bottom: 1rem;
-    }
-
-    dt {
-        font-weight: normal;
-    }
-
-    strong {
-        font-weight: 500;
     }
 }
 
