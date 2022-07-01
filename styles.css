@@ -94,6 +94,10 @@ time {
     font-size: 0.7rem;
 }
 
+.link-color {
+    color: black !important;
+}
+
 @media print {
     .col-print-1 {
         flex: 0 0 8.333333%;
